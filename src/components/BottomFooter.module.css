@@ -1,0 +1,14 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ebbe00;
+    padding: 8px 30px;
+}
+
+.footer-container > div {
+    display: flex;
+    text-align: center;
+}
+.middle-section{
+    margin-left: 30px;
+}

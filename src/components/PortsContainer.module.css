@@ -1,0 +1,20 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px 0 50px;
+    background-color: #ebbe00;
+}
+
+.footer-container > div > a {
+    text-decoration: none;
+    font-family: roboto;
+    line-height: 2rem;
+    color: #000;
+    width: fit-content;
+}
+
+.footer-container > div {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}

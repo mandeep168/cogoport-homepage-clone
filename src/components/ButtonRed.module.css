@@ -1,0 +1,9 @@
+.btn-red-div{
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    background-color: red;
+};
