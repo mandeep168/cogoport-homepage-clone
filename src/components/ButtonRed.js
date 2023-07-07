@@ -1,5 +1,5 @@
 import React from 'react'
-// import styles from './ButtonRed.module.css'
+import styles from '../styles/ButtonRed.module.css'
 const ButtonRed = ({width, btnText}) => {
     const anchorStyles = {
         textAlign: "center",

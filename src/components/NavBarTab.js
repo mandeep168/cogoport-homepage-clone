@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './NavBarTab.module.css';
+import styles from '../styles/NavBarTab.module.css';
 const NavBarTab = () => {;
   return (
     <div>

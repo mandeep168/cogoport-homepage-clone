@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Notification.module.css';
+import styles from '../styles/Notification.module.css';
 const Notification = () => {
   return (
     <div className={styles["notification-block"]}>

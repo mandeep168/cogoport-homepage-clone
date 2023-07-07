@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './BottomFooter.module.css';
+import styles from '../styles/BottomFooter.module.css';
 const BottomFooter = () => {
   return (
     <div className={styles['footer-container']}>

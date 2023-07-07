@@ -1,6 +1,6 @@
 import React from 'react'
 import {logos} from '../data/trusted-by-logos';
-import styles from './TrustedBy.module.css';
+import styles from '../styles/TrustedBy.module.css';
 
 const TrustedBy = () => {
   return (

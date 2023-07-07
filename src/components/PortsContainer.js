@@ -1,6 +1,6 @@
 import React from 'react'
 import {portsData} from '../data/portsData';
-import styles from './PortsContainer.module.css';
+import styles from '../styles/PortsContainer.module.css';
 const PortsContainer = () => {
     const length = portsData.length;
   return (

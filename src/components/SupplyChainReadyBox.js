@@ -2,23 +2,6 @@ import React from 'react'
 import ButtonRed from './ButtonRed';
 
 const SupplyChainReadyBox = () => {
-    const styles = {
-        containerStyles : {
-            backgroundColor: "#fbdc00",
-            marginBottom: "50px",
-            display: "flex",
-            justifyContent: "center",
-        },
-        textDivStyles : {
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            width: "1200px",
-            height: "100px",
-            padding: "16px",
-        }
-    }
-    
 
   return (
     <div style={styles.containerStyles}>
@@ -28,6 +11,24 @@ const SupplyChainReadyBox = () => {
       </div>
     </div>
   )
+
+}
+
+const styles = {
+  containerStyles : {
+      backgroundColor: "#fbdc00",
+      marginBottom: "50px",
+      display: "flex",
+      justifyContent: "center",
+  },
+  textDivStyles : {
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+      width: "1200px",
+      height: "100px",
+      padding: "16px",
+  }
 }
 
 export default SupplyChainReadyBox;

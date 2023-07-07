@@ -1,0 +1,131 @@
+.container{
+    background-color: #fbdc00;
+}
+
+.top-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    margin-top: 20px;
+}
+
+.top-container-top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+}
+
+
+.newsletter-image > img {
+    width: 216px;
+    height: 176.57px;
+}
+
+.newsletter-image {
+    width: 256px;
+    height: 222.24px;
+    /* width: 20%; */
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+}
+
+.newsletter-input-container {
+    text-align: left;
+}
+
+.newsletter-input-container > h3 {
+    margin: 0;
+}
+
+.newsletter-form {
+    margin-top: 20px;
+}
+
+.newsletter-form > form {
+    display: flex;
+}
+
+.form-submit-btn > button {
+    color: #fff;
+    background-color: #ee3425;
+    border: 1px solid #ee3425;
+    width: 120px!important;
+    height: 40px!important;
+    background: #ee3425;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.form-submit-btn > button > svg {
+    width: 30px;
+    height: 18px;
+}
+
+.bottom-container {
+    padding: 0 50px 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    height: 723px;
+}
+
+.quick-links-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.quick-links-div > span {
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-decoration: underline;
+}
+
+.links-group-div {
+    margin-top: 8px ;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+}
+
+.links-group-div > h4 {
+    font-size: 14px;
+    margin-top:0;
+    margin-bottom: 14px;
+}
+
+.links-group-div > div{
+    display: flex;
+    flex-direction: column;
+}
+.links-group-div > div > span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 8px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.links-group-div > div > span >a {
+    font-weight: 400;
+    color: #000;
+    text-decoration: none;
+    line-height: 1.5;
+    font-size: 14px;
+}

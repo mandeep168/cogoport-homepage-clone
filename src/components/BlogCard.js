@@ -1,17 +1,19 @@
 import React from 'react'
-import styles from './BlogCard.module.css';
+import styles from '../styles/BlogCard.module.css';
 
-const BlogCard = () => {;
+const BlogCard = (props) => {;
   return (
     <div className={styles['blog-post-card']}>
         <a>
-            <img href="https://www.cogoport.com/_next/image?url=https%3A%…vault%2Foriginal%2FEng_2405_Banner.png&w=828&q=75"></img>
-            <h5>Industry Basics</h5>
-            <h4>Understanding Lean Supply Chain Management: Definition and Considerations</h4>
-            <p>Lean Supply Chain Management represents the extension of Lean Thinking across the entire supply chain. So, what are the benefits and key components? Read on!</p>
+            <img src={props.imgURL}></img>
             <div>
-                <p>Read More </p>
-                <p>24 June 2023</p>
+              <h4 className={styles['red-text']}>Industry Basics</h4>
+              <h4>{props.title}</h4>
+              <p>{props.description}</p>
+              <div className={styles['footer']}>
+                  <span>Read More </span>
+                  <p>{props.date}</p>
+              </div>
             </div>
         </a>
     </div>

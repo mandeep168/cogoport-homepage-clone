@@ -1,27 +1,32 @@
 import './App.css';
-import BlogCard from './components/BlogCard';
+
+import Blogs from './components/Blogs';
 import BottomFooter from './components/BottomFooter';
-import ButtonRed from './components/ButtonRed';
+import IndustriesServed from './components/IndustriesServed';
 import NavBarTab from './components/NavBarTab';
 import Notification from './components/Notification';
 import OurProducts from './components/OurProducts';
 import PortsContainer from './components/PortsContainer';
-import ProductsCard from './components/ProductsCard';
 import SupplyChainReadyBox from './components/SupplyChainReadyBox';
 import TrustedBy from './components/TrustedBy';
+import GetStarted from './components/GetStarted';
+import WhatsappCard from './components/WhatsappCard';
+import SubscribeNewsletterAndQuickLinks from './components/SubscribeNewsletterAndQuickLinks';
 
 function App() {
   return (
     <div className="App">
+      {/* <WhatsappCard /> */}
       {/* <Notification /> */}
-      {/* <BlogCard /> */}
-      {/* <OurProducts /> */}
+      <OurProducts />
       {/* <TrustedBy /> */}
       {/* <SupplyChainReadyBox /> */}
-       {/* <PortsContainer /> */}
+      {/* <IndustriesServed /> */}
+      {/* <GetStarted /> */}
+      {/* <Blogs /> */}
+      {/* <SubscribeNewsletterAndQuickLinks /> */}
+      {/* <PortsContainer />  */}
       {/* <BottomFooter />  */}
-      {/* <NavBarTab /> */}
-      
     </div>
   );
 }
