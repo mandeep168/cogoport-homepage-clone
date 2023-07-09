@@ -2,13 +2,11 @@ import React from 'react'
 import { blogs } from '../data/blogs.js';
 import BlogCard from './BlogCard.js';
 import ButtonRed from './ButtonRed.js';
+import styles from '../styles/Blogs.module.css';
 
 const Blogs = () => {
-  const styles = {
-    display: "flex",
-  }
   return (
-    <div>
+    <div className={styles.container}>
         <h3> Blogs </h3>
         <div style={styles}>
           {
@@ -17,7 +15,7 @@ const Blogs = () => {
               })
           }
         </div>
-        <ButtonRed btnText={"View More"}/>
+        <ButtonRed className={styles.btn} btnText={"View More"}/>
     </div>
   )
 }

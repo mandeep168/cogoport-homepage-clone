@@ -1,0 +1,201 @@
+.container {
+    position: relative;
+    width: 100%;
+    padding-top: 57px;
+    margin-top: -57px;
+    background: url(https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/home-banner-background-1.webp);
+    
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.top-div {
+    box-shadow:  1px 6px rgba(169,188,218,.65);
+    font-family: var(--font-color-heading);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 56px;
+    padding: 8px 16px;
+    font-family: var(--font-family-heading);
+    font-weight: 500;
+    color: var(--font-color-heading);
+    background: #fbdc00;
+}
+.fixed-nav-bar {
+    background-color: #fff;
+}
+
+.top-div, .top-div > div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar-tabs > div {
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-bar-tabs > div > span {    
+    font-weight: bold;
+    font-size: var(--font-size-md);
+}
+
+.nav-bar-tabs > div > svg {
+    margin-left: 4px;
+    width: 10px;
+    height: 10px;
+}
+
+.login-signup-div > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-signup-div > * {
+    cursor: pointer;
+    
+    height: 36px;
+    padding: 4px 16px;
+    
+    font-weight: bold;
+    font-size: var(--font-size-md);
+}
+
+.login-signup-div > div > svg {
+    margin-right: 5px;
+}
+
+.login-signup-div > button {
+    color: #fff;
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 8px!important;
+}
+.bottom-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 392px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+    width: 1200px;
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    
+    backface-visibility: hidden;
+    display: flex;
+    flex: 1 1;
+    width: 595px;
+    height: 350px;
+    margin-bottom: -39px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    text-align: left;
+}
+
+.text-box > h1, .text-box > p {
+    margin-bottom: 20px;
+}
+
+.text-box > p {
+    text-align: left;
+}
+
+.text-box > form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-div {
+    display: flex;
+}
+
+.form-top-text {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    color: #000;
+    margin-bottom: 6px;
+}
+
+.whatsapp-icon-box, .whatsapp-icon-box > div , .whatsapp-number-input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.whatsapp-number-input-box > input {
+    padding-left: 0;
+    font-size: 14px;
+    color: grey;
+    line-height: 20px;
+    border-radius:0 20px 20px 0 !important;
+}
+
+.whatsapp-number-input-box {
+    position: relative;
+}
+
+.whatsapp-number-input-box > button {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: #36bb22;
+    border: 1px solid #36bb22;
+    border-radius: 12px;
+    height:auto;
+    padding: 2px 4px;
+    color: #fff;
+    font-size: 14px!important;
+    font-weight: 700!important;
+}
+
+.whatsapp-icon-box {
+    /* border-right: none!important; */
+    border-radius:20px 0 0 20px!important;
+    background-color: var(--color-secondary-5);
+    border: none;
+    cursor: pointer;
+    flex-grow: 0;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    padding: 8px 12px;
+}
+
+.whatsapp-icon-box > div > p {
+    padding-left: 6px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.whatsapp-icon-box > div > svg {
+    width: 20px;
+    height: 20px;
+}
+
+.arrow-down-svg {
+    color: #2c3e50;
+    height: 12px;
+    width: 12px;
+    /* padding-left: 14px; */
+    margin-left: 12px;
+    margin-right: 2px;
+}

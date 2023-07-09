@@ -12,21 +12,25 @@ import TrustedBy from './components/TrustedBy';
 import GetStarted from './components/GetStarted';
 import WhatsappCard from './components/WhatsappCard';
 import SubscribeNewsletterAndQuickLinks from './components/SubscribeNewsletterAndQuickLinks';
+import HowItWorks from './components/HowItWorks';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
       {/* <WhatsappCard /> */}
       {/* <Notification /> */}
-      <OurProducts />
+      {/* <NavBar /> */}
+      {/* <OurProducts /> */}
       {/* <TrustedBy /> */}
       {/* <SupplyChainReadyBox /> */}
+      {/* <HowItWorks /> */}
       {/* <IndustriesServed /> */}
-      {/* <GetStarted /> */}
+       {/* <GetStarted /> */}
       {/* <Blogs /> */}
-      {/* <SubscribeNewsletterAndQuickLinks /> */}
-      {/* <PortsContainer />  */}
-      {/* <BottomFooter />  */}
+      {/* <SubscribeNewsletterAndQuickLinks />
+      <PortsContainer />  */}
+      <BottomFooter /> 
     </div>
   );
 }

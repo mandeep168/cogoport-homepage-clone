@@ -1,8 +1,15 @@
 .container{
-    background-color: #fbdc00;
+}
+
+.top-container-cover {
+    background-color: var(--color-secondary);
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .top-container{
+    width: 100%;
     position: relative;
     display: flex;
     align-items: center;
@@ -68,6 +75,13 @@
     height: 18px;
 }
 
+.bottom-container-cover{
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color-secondary);
+}
+
 .bottom-container {
     padding: 0 50px 50px;
     width: 100%;
@@ -128,4 +142,18 @@
     text-decoration: none;
     line-height: 1.5;
     font-size: 14px;
+}
+
+@media screen and (min-width: 767px) {
+}
+@media screen and (max-width: 767px) {
+    .bottom-container-cover, .newsletter-image {
+        display: none;
+    }
+    .top-container-cover, .top-container-cover > * {
+        width: 100vw;
+    }
+    .newsletter-form > form {
+        margin-bottom: 20px;
+    }
 }

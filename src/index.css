@@ -1,24 +1,61 @@
-body {
-  margin: 0;
-  font-family: "PT Sans",sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu&display=swap');
+
+:root {
+  --color-primary: #ee3425;
+    --color-primary-1: #ee3425;
+    --color-primary-2: #ee3425;
+    --color-secondary: #fbdc00;
+    --color-secondary-1: #ebbe00;
+    --color-secondary-5: #fff;
+    --font-color: #434343;
+    --font-color-heading: #000;
+    --font-color-link: var(--color-primary);
+    --font-family: "PT Sans",sans-serif;
+    --font-family-heading: "Ubuntu",sans-serif;
+    --font-size-xl: 18px;
+    --font-size-lg: 16px;
+    --font-size-md: 14px;
+    --font-size-sm: 12px;
+    --font-size-xs: 10px;
+    --line-height: 1.5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  font-family:  var(--font-family);
+}
+
+body {
+  min-width: fit-content;
+  min-height: 100vh;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: var(--line-height);
+  font-size: var(--font-size-md);
+  /* width: 100vw; */
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 40px;
+  font-family: var(--font-family-heading);
+  color: var(--font-color-heading);
+  margin-bottom: 1em;
+  font-weight: bolder;
+
 }
 
 h2 {
+  font-family: var(--font-family-heading);
   font-size: 40px;
   line-height: 1.2;
 }
 
 h3 {
   font-size: 28px;
+  font-family: var(--font-family-heading);
+  color: var(--font-color-heading);
   line-height: 1.2;
 }
 
@@ -29,6 +66,7 @@ h4 {
 h2 {
   font-size: 40px;
   line-height: 1.2;
+  color:var(--font-color-heading);
 }
 
 input {
@@ -44,6 +82,7 @@ input {
 }
 
 button {
+  height: 36px;
   padding: 4px 16px;
   align-items: center;
   cursor: pointer;
@@ -52,4 +91,37 @@ button {
   display: flex;
   justify-content: center;
   line-height: 1.2;
+}
+
+p {
+  font-size: var(--font-size-lg);
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    max-width: 767px;
+  }
+  h2 {
+      font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-height: 600px) {
+  body{
+    min-height: 600px;
+  }
 }

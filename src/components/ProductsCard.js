@@ -5,7 +5,7 @@ const ProductsCard = (props) => {;
   return (
     <a href="#" className={styles["product-card"]}>
         <div>
-            <img src={require("../assets/ship.png")}></img>
+            {props.svg || <div></div>}
             <h4>{props.prodHeading || "heading here"}</h4>
             <p> Find Out More - </p>
        </div>

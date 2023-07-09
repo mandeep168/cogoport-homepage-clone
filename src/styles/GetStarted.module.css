@@ -2,11 +2,11 @@
     display: flex;
     align-items: center;
     padding: 16px 100px;
-    margin: 0 40px;
-    /*     
+    /* margin: 0 40px; */
+    width: 1200px;
     margin-left: auto;
     margin-right: auto; 
-    */
+   
 }
 
 .top-container-text {
@@ -58,9 +58,13 @@
 }
 
 .middle-container{
+    display: block;
     height: 450px;
     position: relative;
     cursor: pointer;
+    width: 1200px;
+    margin-right: auto; 
+    margin-left: auto;
 }
 
 .middle-container-background-img {
@@ -95,17 +99,18 @@
     
 }
 
+.bottom-outer-div {
+    background-color: var(--color-primary);
+}
 .bottom-container {
-    background-color: #ee3425;
+    padding: 16px;
+    height: 136px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bottom-container > div {
-    padding: 16px;
-    width: 1168px;
-    height: 136px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -122,6 +127,7 @@
 .bottom-container > div > div > h3{
     margin-top: 0;
     margin-bottom: 10px;
+    color: var(--color-secondary-5)
 }
 
 .bottom-container > div > div > p{
@@ -148,4 +154,27 @@
     line-height: 1.2;
     font-size: 14px;
     font-weight: 700
+}
+
+@media screen and (max-width: 767px) {
+    .top-container {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%!important;
+        padding-right: 16px!important;
+        padding-left: 16px!important;
+    }
+
+    .top-container > .top-container-text > ButtonRed {
+        width: 100%;
+    }
+
+    .bottom-container, .middle-container {
+        width: 100%;
+    }
+    
+    .bottom-container > div {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }

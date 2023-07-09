@@ -32,6 +32,7 @@ const GetStarted = () => {
           
         </div>
 
+      <div className={styles["bottom-outer-div"]}>
         <div className={styles['bottom-container']}>
             <div>
               <div>
@@ -51,6 +52,7 @@ const GetStarted = () => {
               </a>
             </div>
         </div>
+      </div>
     </div>
   )
 }

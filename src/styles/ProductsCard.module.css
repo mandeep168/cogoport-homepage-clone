@@ -22,13 +22,27 @@
 .product-card > div > h4 {
     color: black;
     margin-top: 5px;
-    font-size: 16px;
-    line-height: 1.3em;
+    /* line-height: 1.3em; */
 }
 .product-card > div > p { 
-    color:#ee3425;
+    font-size: var(--font-size-md);
+    font-weight: 700;
+    color:var(--color-primary);
 }
 
 .product-card > div:hover{
     border-color: #ee3425;
+}
+
+
+@media (max-width: 767px) {
+    .product-card > div {
+        width: 128px;
+        height: 128px;
+        padding: 0;
+        margin: 8px;
+     }
+     .product-card > div > p {
+        margin: 8px 0 6px 8px;
+     }
 }

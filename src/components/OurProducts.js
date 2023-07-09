@@ -50,7 +50,7 @@ const OurProducts = () => {
                                     <div>
                                     {
                                         productList.products.map((prod) => {
-                                            return (<ProductsCard prodHeading = {prod.prodHeading} />);
+                                            return (<ProductsCard prodHeading = {prod.prodHeading} svg = {prod.img} />);
                                         })
                                     }
                                     </div>

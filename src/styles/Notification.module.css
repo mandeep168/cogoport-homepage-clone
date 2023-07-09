@@ -1,24 +1,23 @@
-img, p{
-    align-self: center;
-}
 
 .notification-block{
     display: flex;
-    background-color: #ee3425;
+    background-color: var(--color-primary-2);
     height: 36px;
-    justify-content: center;
+    justify-content: space-around;
     position: relative;
+    width: 100%;
+}
+
+.notification-block > div > img, .notification-block > div > p, .notification-block > svg {
+    align-self: center;
 }
 
 .notification-block > div {
     display: flex;
 }
-.notification-block > img {
-    position: absolute;
-    right: 10%;
-}
 
 .notification-block > div > p{
+    font-size: 14px;
     color: #fff;
     font-weight: bold;
     margin: 2px;
@@ -27,14 +26,16 @@ img, p{
 .notification-block > div > p> a{
     text-decoration: none;
     color: #fcde00;
+    margin-left: 2px;
 }
 
 .notification-block > div > img {
     width: 16px;
     height: 16px;
+    margin-right: 6px;
 }
 
-.notification-block > img{
+.notification-block > svg{
     width: 20px;
     height: 20px;
     cursor: pointer;
@@ -44,4 +45,10 @@ img, p{
     text-decoration: underline;
     text-decoration-color: #fcde00;
     text-decoration-thickness: 1.5px;
+}
+
+@media only screen and (max-width: 766px) {
+    .notification-block {
+        height: 48px;
+    }
 }

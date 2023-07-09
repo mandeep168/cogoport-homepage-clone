@@ -2,6 +2,11 @@
     background-color: white;
     display: flex;
     animation: logo-container 32s linear infinite normal;
+    position: relative;
+    max-width: 100%;
+    height: 120px;
+    width: 100%;
+    /* overflow-x: hidden; */
 }
 
 @keyframes logo-container {
@@ -15,8 +20,6 @@
 
 
 .container > h3 {
-    font-size: 28px;
-    line-height: 1.2;
     margin-bottom: 1em;
 }
 
@@ -24,11 +27,11 @@
 .logo-container {
     display: flex;
     flex-shrink: 0;
-    overflow: hidden;
     height: 120px;
     justify-content: space-around;
     gap: 0.1rem;
     min-width: 100%;
+    width: 100%;
 }
 
 .logo {
@@ -36,4 +39,11 @@
     margin-right: 40px;
     width: 143px;
     height: 73px;
+}
+
+
+@media screen and (max-width: 767px){
+    .container {
+        margin-bottom: 32px;
+    }
 }
