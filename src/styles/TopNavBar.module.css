@@ -115,9 +115,6 @@
     .top-div > svg {
         display: block;
     }
-    .top-div {
-        position: relative;
-    }
     .logo {
         position: absolute;
         left: 8%;

@@ -1,0 +1,4 @@
+1. The banner section has a plane backgruond. I faced diffuculty putting the poster image as the background, could not make the banner video background transparent. 
+2. Have not implemented the javascript [clickables], as the assignment was intended for the html and css part.
+3. The whatsapp icon on the right does not have an opaque background and the appearance of it just after the scrolling of the banner section has not been achieved. 
+4. The fixing of the sticky positioned nav bar is not changing background color when fixed on the top.
