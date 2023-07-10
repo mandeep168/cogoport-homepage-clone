@@ -41,23 +41,27 @@ const OurProducts = () => {
             </div>
             <div className={styles['main-container']}>
                 <h3> Our Products </h3>
-                <div className={styles['our-products-list-container']}>
-                    {
-                        products.map((productList) => {
-                            return (
-                                <div className={styles['our-products-list']}>
-                                    <h4 class={styles['product-heading']}>{productList.heading || "Heading Missing" }</h4>
-                                    <div>
-                                    {
-                                        productList.products.map((prod) => {
-                                            return (<ProductsCard prodHeading = {prod.prodHeading} svg = {prod.img} />);
-                                        })
-                                    }
+                <div>
+                    <div className={styles['our-products-list-container']}>
+                        {
+                            products.map((productList) => {
+                                return (
+                                    <div className={styles['our-products-list']}>
+                                        <h4 class={styles['product-heading']}>{productList.heading || "Heading Missing" }</h4>
+                                        <div>
+                                            <div>
+                                            {
+                                                productList.products.map((prod) => {
+                                                    return (<ProductsCard prodHeading = {prod.prodHeading} svg = {prod.img} />);
+                                                })
+                                            }
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            );
-                        })
-                    }
+                                );
+                            })
+                        }
+                    </div>
                 </div>
             </div>
         </div>

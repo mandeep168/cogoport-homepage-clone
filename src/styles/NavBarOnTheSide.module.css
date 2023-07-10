@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--color-secondary);
+}
+
+.container > div {
+    padding: 16px 0 0;
+    width: 100%;
+    overflow-y: scroll;
+    border-bottom: 0.5px solid rgba(0,0,0,.4);
+}
+
+.container > div > button {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+}
+
+.container > div > button > h3 {
+    padding: 0 0 16px 16px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.container > div > button > svg {
+    transform: rotate(90deg);
+    margin-right: 16px;
+}
+
+@media (min-width: 767px) {
+    .container {
+        display: none;
+    }
+}
+

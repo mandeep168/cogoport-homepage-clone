@@ -1,12 +1,5 @@
-.info-box > p {
-    font-size: 16px;
-    margin-top: 0;
-    margin-bottom: 1em;
-    text-align: left;
-}
-
 .container {
-    width: 1200px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding: 16px;
@@ -65,13 +58,22 @@
     color: transparent;
 }
 
-
 .info-box {
     width: 300px;
     padding: 16px;
     border-radius: 10px;
     box-shadow: 0 1px 6px rgba(169,188,218,.65);
-    margin-bottom: 120px;
+}
+
+.info-box > p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+.space {
+    height: 120px;
 }
 
 .info-box > p {
@@ -133,6 +135,9 @@
 }
 
 @media screen and (max-width: 767px) {
+    .bottom-container-cover {
+        width: 100%;
+    }
     .bottom-container {
         display: flex;
         flex-direction: column;
@@ -154,5 +159,13 @@
         margin-bottom: 16px;
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .space {
+        display: none;
+    }
+    .img > img {
+        width: 280px;
+        height: auto;
+        margin-top: 10px;
     }
 }

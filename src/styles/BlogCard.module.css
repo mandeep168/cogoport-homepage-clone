@@ -25,27 +25,49 @@
     height: 200px;
     object-fit: cover;
 }
-h4{
+.blog-post-card > a > div > h4{
     margin-bottom: 5px;
 }
 .red-text {
     font-size: 16px;
-    color: #ee3425;
+    color: var(--color-primary-1);
+}
+
+.title {
+    margin-top: 0;
 }
   
 .blog-post-card > a > div > p {
     max-height: calc(1.4rem * 3);
     overflow: hidden;
+    font-family: var(--font-family);
 }
 
 .footer {
     font-weight: 700;
+    display: flex;
+    align-items: center;
 }
 
 .footer > span {
     color: #ee3425;
+    display: flex;
+    align-items: center;
+}
+
+.footer > span > svg {
+    margin-left: 5px;
 }
 
 .footer > p {
     color: #9a9a9a;
+    font-size: var(--font-size-md);
+    font-family: var(--font-family-heading);
+    margin-bottom: auto;
+}
+
+@media (max-width: 767px) {
+    .blog-post-card {
+        width: auto;
+    }
 }

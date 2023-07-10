@@ -3,7 +3,7 @@
 
 .top-container-cover {
     background-color: var(--color-secondary);
-    width: 1280px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -144,16 +144,16 @@
     font-size: 14px;
 }
 
-@media screen and (min-width: 767px) {
-}
 @media screen and (max-width: 767px) {
     .bottom-container-cover, .newsletter-image {
         display: none;
     }
     .top-container-cover, .top-container-cover > * {
-        width: 100vw;
+        width: 100%;
     }
     .newsletter-form > form {
         margin-bottom: 20px;
+    }.newsletter-input-container {
+        text-align: center;
     }
 }

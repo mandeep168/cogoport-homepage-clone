@@ -9,7 +9,7 @@ const HowItWorks = () => {
     <div className={styles["img"]} id={styles.img1}>
         <img src="https://cdn.cogoport.io/cms-prod/cogo_public/vault/original/homepagem1.png" alt=""></img>
     </div>
-    <div>
+    <div className={styles["info-box-container"]}>
         <div className={styles["info-box"]}>
             <p> Stage 1:</p>
             <div>
@@ -29,6 +29,7 @@ const HowItWorks = () => {
                 <p> Knowledge and Insights on Trade, Logistics, Finance, Supply Chains </p>
             </span>
         </div>
+        <div className={styles["space"]}></div>
         <div className={styles["arrow-img"]} id={styles.arrow1}>
             <img src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow1.png&w=384&q=75" alt="arrow image"></img>
         </div>
@@ -77,6 +78,7 @@ const HowItWorks = () => {
                 <p> Multi-modal: Smooth coordination and handovers between various service providers and stakeholders </p>
             </span>
         </div>
+        <div className={styles["space"]}></div>
         <div className={styles["arrow-img"]} id={styles.arrow4}>
             <img src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow4.png&w=384&q=75" alt="arrow-image"></img>
         </div>
@@ -119,6 +121,7 @@ const HowItWorks = () => {
                 <p> Knowledge and Insights on Trade, Logistics, Finance, Supply Chains </p>
             </span>
         </div>
+        {/* <div className={styles["space"]}></div> */}
         <div className={styles["arrow-img"]} id={styles.arrow1}>
             <img src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow1.png&w=384&q=75" alt="arrow image"></img>
         </div>
@@ -167,6 +170,7 @@ const HowItWorks = () => {
                 <p> Get paid on time, minimize collections risks </p>
             </span>
         </div>
+        {/* <div className={styles["space"]}></div> */}
         <div className={styles["arrow-img"]} id={styles.arrow4}>
             <img src="https://www.cogoport.com/_next/image?url=https%3A%2F%2Fcdn.cogoport.io%2Fcms-prod%2Fcogo_public%2Fvault%2Foriginal%2Flinearrow4.png&w=384&q=75" alt="arrow-image"></img>
         </div>
@@ -200,7 +204,7 @@ const HowItWorks = () => {
                     <span> For Logistics Partners</span>
                 </button>
             </div>
-            <div>
+            <div className={styles["bottom-container-cover"]}>
                 { cargoOwners && cargoOwnersDiv }
                 {   !cargoOwners && logisticsPartersDiv }
             </div>

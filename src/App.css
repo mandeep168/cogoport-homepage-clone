@@ -1,4 +1,12 @@
 .App {
   text-align: center;
+  min-width: fit-content;
+  min-height: 100vh;
 }
 
+@media (max-height: 600px) {
+  .App{
+    min-height: 600px;
+    min-width: 312px;
+  }
+}

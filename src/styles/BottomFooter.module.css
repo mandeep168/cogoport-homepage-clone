@@ -1,10 +1,15 @@
+.footer-container-cover {
+    margin-left: auto;
+    margin-right: auto;
+    background: var(--color-secondary-1);
+}
+
 .footer-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     padding: 8px 30px;
-    background: var(--color-secondary-1);
 }
 
 .footer-container > div {
@@ -50,6 +55,10 @@
 
 @media screen and (max-width: 767px) {
     .middle-section {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .middle-section > a{
         display: none;
     }
     .footer-container {
@@ -63,5 +72,9 @@
     .social-media-svgs {
         padding-left: 0;
         padding-right: 0;
+    }
+    .footer-container > div > span {
+        font-family: var(--font-family);
+        font-weight: 500;
     }
 }

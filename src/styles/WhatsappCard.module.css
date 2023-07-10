@@ -1,0 +1,42 @@
+.container {
+    display: block;
+    z-index: 1000;
+}
+
+.container > a {
+    text-decoration: none;
+}
+
+.container > a > div {
+    position: fixed;
+    top: 20%;
+    right: 0;
+    
+    background-color: var(--color-primary-1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+    height: 68px;
+    padding: 7px;
+    border-radius: 4px 0 0 4px;
+}
+
+.container > a > div > img {
+    width: 32px;
+    height: 32px;
+}
+
+.container > a > div > span {
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+@media (max-width: 767px) {
+    .container {
+        display: none;
+    }
+}

@@ -57,10 +57,12 @@ h3 {
   font-family: var(--font-family-heading);
   color: var(--font-color-heading);
   line-height: 1.2;
+  font-weight: 600;
 }
 
 h4 {
   font-size: 18px;
+  font-family: var(--font-family-heading);
 }
 
 h2 {

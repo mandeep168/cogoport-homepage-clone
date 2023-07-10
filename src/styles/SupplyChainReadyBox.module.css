@@ -4,13 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1200px;
+    width: 100%;
 }
 .textDiv {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     height: 100px;

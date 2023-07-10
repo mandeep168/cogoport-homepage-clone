@@ -14,22 +14,26 @@ import WhatsappCard from './components/WhatsappCard';
 import SubscribeNewsletterAndQuickLinks from './components/SubscribeNewsletterAndQuickLinks';
 import HowItWorks from './components/HowItWorks';
 import NavBar from './components/NavBar';
+import NavBarOnTheSide from './components/NavBarOnTheSide';
+import TopNavBar from './components/TopNavBar';
 
 function App() {
   return (
     <div className="App">
       {/* <WhatsappCard /> */}
-      {/* <Notification /> */}
-      {/* <NavBar /> */}
-      {/* <OurProducts /> */}
-      {/* <TrustedBy /> */}
-      {/* <SupplyChainReadyBox /> */}
-      {/* <HowItWorks /> */}
-      {/* <IndustriesServed /> */}
-       {/* <GetStarted /> */}
-      {/* <Blogs /> */}
-      {/* <SubscribeNewsletterAndQuickLinks />
-      <PortsContainer />  */}
+      <Notification />
+      <TopNavBar />
+      <NavBar />
+      <OurProducts />
+      <TrustedBy />
+      <SupplyChainReadyBox />
+      <HowItWorks />
+      <IndustriesServed />
+      <GetStarted />
+      <Blogs />
+      <SubscribeNewsletterAndQuickLinks />
+      <PortsContainer /> 
+      <NavBarOnTheSide />
       <BottomFooter /> 
     </div>
   );
