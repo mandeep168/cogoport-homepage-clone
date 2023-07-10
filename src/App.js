@@ -20,7 +20,7 @@ import TopNavBar from './components/TopNavBar';
 function App() {
   return (
     <div className="App">
-      {/* <WhatsappCard /> */}
+      <WhatsappCard />
       <Notification />
       <TopNavBar />
       <NavBar />

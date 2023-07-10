@@ -50,7 +50,7 @@
 }
 
 .login-signup-div {
-    /* flex-grow: 2; */
+    margin-right: 45.6px;
 }
 
 .nav-bar-tabs > div {
@@ -74,7 +74,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 0;
+    margin-right: 16px;
     padding-right: 0;
 }
 
@@ -103,7 +103,6 @@
     color: #2c3e50;
     height: 12px;
     width: 12px;
-    /* padding-left: 14px; */
     margin-left: 12px;
     margin-right: 2px;
 }
